@@ -1,0 +1,26 @@
+@import "var.scss";
+.form_side {
+  flex-basis: 30%;
+  background: $formside-bg;
+  form {
+    padding: 1rem 2.7rem;
+    label {
+      color: $label_text_color;
+      font-size: 18px;
+    }
+    input {
+      padding: 0.8rem 0.5rem;
+      outline: none;
+      border: none;
+      border-radius: 7px;
+    }
+    #submit {
+      width: 90%;
+      margin-top: 1rem;
+      border-radius: 10px;
+      background: $submit-bg;
+      outline: 3px solid #fff;
+      font-size: 20px;
+    }
+  }
+}
